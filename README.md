@@ -1,6 +1,39 @@
-# TicTacToeAI
+# TicTacToe AI
 
-#### A TicTacToe game featuring the option to play against an AI of easy or hard difficulty
-Developed a TicTacToe game in C++ with an AI opponent, implementing easy and hard difficulty levels using the minimax algorithm for the hard difficulty’s decision making.
-Implemented game logic and state management, ensuring smooth and intuitive gameplay.
-Utilized 2D arrays to represent the game board and manage player and AI moves efficiently.
+A simple yet effective **Tic Tac Toe game in C++** featuring both human and AI players. The AI uses the **Minimax algorithm** for optimal decision-making on the "Hard" difficulty setting.
+
+---
+
+## Features
+
+- Playable in the terminal with clean UI prompts
+- Two difficulty levels:
+  - **Easy** – Random AI moves
+  - **Hard** – AI uses the **Minimax algorithm** to play optimally
+- Supports human vs. AI gameplay
+
+---
+
+## Tech Stack
+
+- **Language:** C++
+- **AI Logic:** Minimax algorithm
+- **Platform:** Command Line (CLI)
+
+---
+
+## How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/laithdarras/TicTacToeAI.git
+   cd TicTacToeAI
+   ```
+2. Compile the code:
+  ```bash
+    g++ main.cpp -o app
+  ```
+3. Run the game:
+   ```bash
+   ./app
+   ```
